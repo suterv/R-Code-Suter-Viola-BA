@@ -505,9 +505,9 @@ egarch_coefficients_with_stars <- lapply(egarch_results, function(fit) {
 
 # Combined coefficients into a data frame
 crypto_names <- names(crypto_datasets)  # Names of cryptocurrencies
-table_data <- do.call(cbind, egarch_coefficients_with_stars)  # Combine coefficients
+table_data <- do.call(cbind, egarch_coefficients_with_stars)  # Combined coefficients
 rownames(table_data) <- names(egarch_coefficients[[1]])       # Row names for coefficients
-table_data <- as.data.frame(table_data)                       # Convert to data frame
+table_data <- as.data.frame(table_data)                       # Converted to data frame
 colnames(table_data) <- crypto_names                          # Set cryptocurrency names
 
 # Add log-likelihood, AIC, and BIC rows
