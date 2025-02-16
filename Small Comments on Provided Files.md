@@ -8,11 +8,15 @@ This repository contains the R scripts used in my Bachelor's thesis on "The Impa
     - Chapter 3: Checking which model among GARCH, EGRACH, GJR-GARCH and ARJI-GARCH fits best to my data
     - Chapter 5: Fitted the EGARCH Model 1 and 2
     - Codes for Appendices D and F, which essentially are the same line of codes as one finds in the other files, but on other data ranges
+    - Examples of the most frequent ChatGPT prompts
     - CSV files: Data for histrorical cryptocurrency prices used in thesis
 
-## How to Use
-Just copy everything in R. All the packages, which are used, are listed on respective code, so you know exactly which packages to install.
-Make sure, you also have the data I used with according path.
-Moreover, there are comments. Do not take my comment always too seriously, they are not super scientific. I often used smilies :)
-My original R-Codes are super messy, unstructured and mixed with wrong lines of code where I sometimes tried out random things. They are not provided.
-If one would like to take a look at them (out of a unexplainable reason, because not even I understand smth, what I wanted to do), please contact me.
+## How to Use  
+Simply copy everything into R. All the required packages are listed within the respective code sections, so you know exactly which ones to install.  
+Make sure you also have the necessary data with the correct file path.  
+
+Additionally, there are comments throughout the code. However, don’t take my comments too seriously—they are not highly scientific. I often used smileys :)  
+
+My original R scripts are quite messy, unstructured, and mixed with incorrect lines of code where I experimented with different things. They are not included here.  
+
+If, for some unexplainable reason, someone wants to look at them (though even I don’t understand what I was trying to do in some parts), please feel free to contact me.
